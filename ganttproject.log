@@ -1,0 +1,153 @@
+GanttProject 3.2.3230
+Settings file:
+	location: C:\Users\Admin\.ganttproject
+	size:0
+	is readable: false
+java.class.path: eclipsito.jar;C:\Program Files (x86)\GanttProject-3.2
+java.home: C:\Program Files (x86)\GanttProject-3.2\runtime
+java.ext.dirs: null
+java.io.tmpdir: C:\Users\Admin\AppData\Local\Temp\
+java.runtime.version: 11.0.13+8-LTS
+java.vendor: BellSoft
+java.vm.name: OpenJDK 64-Bit Server VM
+java.vm.vendor: BellSoft
+java.vm.version: 11.0.13+8-LTS
+os.arch: amd64
+os.name: Windows 10
+os.version: 10.0
+sun.java.command: com.bardsoftware.eclipsito.Launch --verbosity 1 --version-dirs plugins;~/.ganttproject.d/updates --app net.sourceforge.ganttproject.GanttProject
+user.country: IN
+user.dir: C:\Program Files (x86)\GanttProject-3.2
+user.home: C:\Users\Admin
+user.language: en
+user.timezone: Asia/Calcutta
+
+Apr 21, 2023 3:11:25 AM biz.ganttproject.LoggerImpl debug
+FINE: Creating main frame...
+Apr 21, 2023 3:11:25 AM biz.ganttproject.LoggerImpl debug
+FINE: 1. loading look'n'feels
+Apr 21, 2023 3:11:25 AM biz.ganttproject.LoggerImpl debug
+FINE: 2. loading options
+Apr 21, 2023 3:11:25 AM biz.ganttproject.LoggerImpl debug
+FINE: 3. creating menus...
+Apr 21, 2023 3:11:26 AM biz.ganttproject.LoggerImpl debug
+FINE: 4. creating views...
+Apr 21, 2023 3:11:26 AM biz.ganttproject.LoggerImpl debug
+FINE: 5. calculating size and packing...
+Apr 21, 2023 3:11:26 AM biz.ganttproject.LoggerImpl debug
+FINE: 6. changing language ...
+Apr 21, 2023 3:11:26 AM biz.ganttproject.LoggerImpl debug
+FINE: 7. first attempt to restore bounds
+Apr 21, 2023 3:11:26 AM biz.ganttproject.LoggerImpl debug
+FINE: 8. finalizing...
+Apr 21, 2023 3:11:26 AM com.bardsoftware.eclipsito.update.UpdaterImpl lambda$getUpdateMetadata$2
+SEVERE: Failed to fetch updates from https://www.ganttproject.biz/dl/updates/ganttproject-3.0.json
+java.util.concurrent.CompletionException: java.net.ConnectException
+	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniComposeStage(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.thenCompose(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.handle(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Unknown Source)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Unknown Source)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Unknown Source)
+	... 13 more
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	... 22 more
+
+Apr 21, 2023 3:35:30 AM org.ganttproject.impex.htmlpdf.itext.ITextEngine registerFontDirectories
+WARNING: Failed to find directory fonts in plugin org.ganttproject.impex.htmlpdf
+scheduling job=net.sourceforge.ganttproject.export.ExporterBase$2@65d26996 group=net.sourceforge.ganttproject.gui.GanttStatusBar$ProgressMonitorImpl@1f95e5d1
+scheduling job=net.sourceforge.ganttproject.export.ExporterBase$2@65d26996
+Apr 21, 2023 3:36:02 AM net.sourceforge.ganttproject.GPLogger log
+INFO: [ProgressMonitorImpl] begin Task: name=Running export
+Apr 21, 2023 3:36:02 AM net.sourceforge.ganttproject.GPLogger log
+INFO: [ProgressMonitorImpl] begin subTask: name=Generating PDF
+Apr 21, 2023 3:36:02 AM net.sourceforge.ganttproject.GPLogger log
+INFO: [ProgressMonitorImpl] finished subTask
+Apr 21, 2023 3:36:02 AM net.sourceforge.ganttproject.GPLogger log
+INFO: [ProgressMonitorImpl] begin subTask: name=Finalizing
+Apr 21, 2023 3:36:02 AM net.sourceforge.ganttproject.GPLogger log
+INFO: [ProgressMonitorImpl] finished subTask
+Apr 21, 2023 3:36:02 AM net.sourceforge.ganttproject.GPLogger log
+INFO: [ProgressMonitorImpl] finished Task
+Apr 21, 2023 3:42:35 AM net.sourceforge.ganttproject.GPLogger logToLogger
+WARNING: Dependency=Planning->Plan the objective is looping
+net.sourceforge.ganttproject.task.dependency.TaskDependencyException: Dependency=Planning->Plan the objective is looping
+	at net.sourceforge.ganttproject.task.dependency.TaskDependencyCollectionImpl.addDependency(TaskDependencyCollectionImpl.java:257)
+	at net.sourceforge.ganttproject.task.dependency.TaskDependencyCollectionImpl$MutatorImpl.commit(TaskDependencyCollectionImpl.java:164)
+	at net.sourceforge.ganttproject.gui.taskproperties.DependencyTableModel.commit(DependencyTableModel.java:93)
+	at net.sourceforge.ganttproject.gui.taskproperties.TaskDependenciesPanel.commit(TaskDependenciesPanel.java:112)
+	at net.sourceforge.ganttproject.gui.GanttTaskPropertiesBean.applySettings(GanttTaskPropertiesBean.java:430)
+	at net.sourceforge.ganttproject.gui.GanttDialogProperties$1$1.run(GanttDialogProperties.java:50)
+	at net.sourceforge.ganttproject.undo.UndoableEditImpl.<init>(UndoableEditImpl.java:46)
+	at net.sourceforge.ganttproject.undo.UndoManagerImpl.undoableEdit(UndoManagerImpl.java:72)
+	at net.sourceforge.ganttproject.gui.GanttDialogProperties$1.actionPerformed(GanttDialogProperties.java:47)
+	at net.sourceforge.ganttproject.DialogBuilder$1$1.run(DialogBuilder.java:159)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(Unknown Source)
+	at java.desktop/java.awt.Dialog.show(Unknown Source)
+	at java.desktop/java.awt.Component.show(Unknown Source)
+	at java.desktop/java.awt.Component.setVisible(Unknown Source)
+	at java.desktop/java.awt.Window.setVisible(Unknown Source)
+	at java.desktop/java.awt.Dialog.setVisible(Unknown Source)
+	at net.sourceforge.ganttproject.DialogBuilder$DialogImpl.show(DialogBuilder.java:77)
+	at net.sourceforge.ganttproject.gui.GanttDialogProperties.show(GanttDialogProperties.java:73)
+	at net.sourceforge.ganttproject.action.task.TaskPropertiesAction.run(TaskPropertiesAction.java:64)
+	at net.sourceforge.ganttproject.action.task.TaskActionBase$2.run(TaskActionBase.java:81)
+	at net.sourceforge.ganttproject.undo.UndoableEditImpl.<init>(UndoableEditImpl.java:46)
+	at net.sourceforge.ganttproject.undo.UndoManagerImpl.undoableEdit(UndoManagerImpl.java:72)
+	at net.sourceforge.ganttproject.action.task.TaskActionBase.actionPerformed(TaskActionBase.java:77)
+	at biz.ganttproject.app.MenuKt.asMenuItem$lambda-13$lambda-11$lambda-10(Menu.kt:222)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+
+Apr 21, 2023 10:13:20 AM net.sourceforge.ganttproject.GPLogger log
+INFO: [GanttOptions] save(): finished!!
